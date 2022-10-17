@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>seen-network.uk</title>
+   
+   <link>http://localhost:4000</link>
+   <description>About us..</description>
+   <language>en-uk</language>
+   <managingEditor> </managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>A new staff network</title>
+	  <link>//posts%2f2022-10-13-a-new-staff-network/</link>
+	  <author></author>
+	  <pubDate>2022-10-13T00:00:00+01:00</pubDate>
+	  <guid>//posts%2f2022-10-13-a-new-staff-network/</guid>
+	  <description><![CDATA[
+	     <p>We are happy to announce the launch of our new UK cross-government staff network, the <em>Sex Equality and Equity Network</em>.  For more on our mission and who we are see <a href="/about/">About us</a></p>
+
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
