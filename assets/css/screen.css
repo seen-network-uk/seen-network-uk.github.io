@@ -217,31 +217,31 @@ h4, h5, h6 {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 3.2rem;
     letter-spacing: -2px;
     text-indent: -3px;
 }
 
 h2 {
-    font-size: 3.6rem;
+    font-size: 2.6rem;
     letter-spacing: -1px;
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2.3rem;
     letter-spacing: -0.6px;
 }
 
 h4 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h5 {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 h6 {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 a {
@@ -591,7 +591,7 @@ body.nav-opened .site-wrapper {
     position: relative;
     display: table;
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     margin-bottom: 5rem;
     text-align: center;
     background: #222 no-repeat center center;
@@ -1200,14 +1200,22 @@ body.page-template .post-title {
     transform: translateX(-50%);
 }
 
+/* custom .footnote */
+.footnote {
+    font-size: 1.3rem;
+    color: black;
+}
+.footnote::before { content: "["; }
+.footnote::after { content: "]"; }
+
 .footnotes {
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 1.3rem;
     line-height: 1.6em;
 }
 
 .footnotes li {
-    margin: 0.6rem 0;
+    margin: 1rem 0;
 }
 
 .footnotes p {
@@ -1761,6 +1769,10 @@ body.page-template .post-title {
     display: block;
     width: 45%;
     float: left;
+}
+
+.post-subtitle {
+    margin-top: -20px !important;
 }
 
 
